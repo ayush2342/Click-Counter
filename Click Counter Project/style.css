@@ -1,0 +1,10 @@
+.container
+{
+	height: 100vh;
+}
+#box
+{
+	background-color: red;
+	height: 20vh;
+	width:20%;
+}
