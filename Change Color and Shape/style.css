@@ -1,0 +1,64 @@
+body
+{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.row
+{
+	height: 100vh;
+}
+
+#outer-box
+{
+	height: 30vh;
+	width: 100%;
+	background-color: #8A2BE2;
+	border-radius: 50%;
+	margin-top: 40%;
+	margin-bottom: 40%;
+}
+#square
+{
+	height: 15vh;
+	width: 50%;
+	background-color: #F0F8FF;
+	position: relative;
+    left: 25%;
+    top: 25%;
+}
+
+#triangle
+{
+	position: relative;
+    left: 29%;
+    top: 25%;
+     width: 0;
+    height: 0;
+     border-bottom: 90px solid aliceblue;
+    border-right: 90px solid transparent;
+}
+
+#circle
+{
+	height: 15vh;
+	width: 50%;
+	background-color: #F0F8FF;
+	position: relative;
+    left: 25%;
+    top: 25%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.buttons
+{
+   background-color: #EAEAEA;
+   color:black;
+}
