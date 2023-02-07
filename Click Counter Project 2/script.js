@@ -1,5 +1,6 @@
 "use strict";
 
+
 var current=document.querySelector(".current");
 var next=document.querySelector(".next");
 var clicked=document.getElementById("submitButton");
