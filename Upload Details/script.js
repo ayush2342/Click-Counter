@@ -8,7 +8,7 @@ function uploadDetails()
    let name= document.getElementById('name')
    let marks= document.getElementById('marks')
 
-   if(rollNo&&name&&marks)
+   if(rollNo.value&&name.value&&marks.value)
    {
     let newDetails = `<li>
     <p>Roll No - <span>${rollNo.value}</span> ,<span>${name.value}</span>  has scored <span>${marks.value}</span>  marks</p>
