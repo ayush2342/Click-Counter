@@ -1,0 +1,64 @@
+.container-fluid
+{
+    width: 100%;
+    height: 100vh;
+    padding:3% 10%;
+    
+}
+#percentageIndicator
+{
+    height: 5.2vh;
+    width: 20%;
+    position: fixed;
+    top: 2%;
+    right:3%;
+    border: 1px solid #48994E;
+    color: #48994E;
+    text-align: center;
+    box-shadow: 2px 2px 15px 8px #BCC8BC;
+    font-weight: 600;
+    font-size: 1.2em;
+    
+}
+
+.row
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    margin: 0%;
+}
+p
+{
+    font-size: 1.2em;
+   color: #808080;
+   font-weight: 400;
+}
+
+h1
+{
+    text-align: center;
+    color:#2B57A4;
+}
+
+
+.Inner-div
+{
+    height: 60vh;
+	width:40%;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.Inner-div:nth-child(odd)
+{
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png");
+}
+
+.Inner-div:nth-child(even)
+{
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png");
+}
